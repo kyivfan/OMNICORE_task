@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'Gothambold';
+    src: url('../fonts/gothambold1.woff');
+    src: url('../fonts/gothambold1.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gotham';
+    src: url('../fonts/Gothambook.woff');
+    src: url('../fonts/Gothambook.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Raleway';
+    src: url('../fonts/raleway-medium-webfont.woff');
+    src: url('../fonts/raleway-medium-webfont.woff2');
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  height: 1233px;
+  width: 660px;
+  padding: 0 30px;
+}
+
+.header {
+  height: 80px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d5d5d4;
+  box-shadow: 0 1px #e6e5e5;
+}
+
+.header tr {
+  height: 80px;
+  padding: 0 30px;
+}
+
+.header td {
+  align-items: center;
+  width: 112px;
+}
+
+.header_link {
+  display: block;
+  margin-top: 6px;
+  font-size: 18px;
+  width: 65px;
+  font-family: 'Gotham';
+  text-decoration: none;
+  color: #000;
+}
+
+.link1{
+  padding-left: 15px;
+}
+
+.link2{
+  padding-left: 7px;
+}
+
+.header_link:hover {
+  cursor: pointer;
+}
+
+.logo {
+  margin: 8px 37px 0 0;
+  height: 33px;
+  width: 162px;
+  background: url('../img/Urban_logo.png') no-repeat center;
+}
+
+.main {
+  height: 522px;
+  width: 604px;
+  margin: 0 auto;
+}
+
+.main_header {
+  height: 56px;
+  font-family: 'Gothambold';
+  font-size: 22px;
+  background: url('../img/red_round.png') no-repeat left 1px top 38px;
+}
+
+.main_header td {
+  padding: 25px 0 0 1px;
+}
+
+.main_text {
+  padding-left: 14px;
+  height: 136px;
+  font-family: 'Gotham';
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.main_text td {
+  padding: 0 0 30px 2px;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: 'Gothambold'
+}
+
+.image {
+  height: 320px;
+  width: 604px;
+  background: url('../img/main.jpg') no-repeat top left;
+}
+
+button {
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  border: 2px solid white;
+  width: 354px;
+  height: 72px;
+  margin-left: 130px;
+  font-family: 'Raleway';
+  font-size: 24px;
+  padding: 0 6px 0 0;
+  letter-spacing: 0.5px;
+}
+
+button:hover,
+button:active {
+  cursor: pointer;
+  outline: none;
+}
+
+.line {
+  width: 604px;
+  margin: 0 auto;
+}
+
+.spanborder {
+  height: 50px;
+}
+
+.border {
+  height: 47px;
+  border-bottom: 1px solid #b5b5b7;
+}
+
+.span {
+  height: 53px;
+  width: 100%;
+}
+
+.options {
+  height: 54px;
+  width: 604px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+.td {
+  position: relative;
+}
+
+.options h1 {
+  font-family: 'Gothambold';
+  font-size: 20px;
+  height: 29px;
+}
+
+.options span {
+  font-family: 'Raleway';
+  font-size: 14px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #161616;
+  line-height: 15px;
+}
+
+.returns {
+  width: 136px;
+  padding: 0 0 30px 16px;
+}
+
+.track {
+  width: 166px;
+  padding: 0 34px 28px 7px;
+}
+
+.help {
+  width: 140px;
+  padding: 0 10px 46px 0;
+}
+
+.td:after {
+  position: absolute;
+  top: 6px;
+  left: 133px;
+  height: 56px;
+  width: 3px;
+  content: '';
+  background: url('../img/Rectangle.png') no-repeat center;
+}
+
+.track:after {
+  top: 6px;
+  left: 177px;
+}
+
+.social {
+  margin: 15px auto 40px;
+  height: 80px;
+  background: #f0f0f0;
+  width: 100%;
+}
+
+.social td {
+  width: 50%;
+}
+
+.follow {
+  font-family: 'Gothambold';
+  font-size: 24px;
+  padding: 0 0 0 97px;
+  position: relative;
+}
+
+.follow::after {
+  position: absolute;
+  content: '|';
+  font-family: 'Gotham';
+  color: grey;
+  font-size: 24px;
+  left: 291px;
+}
+
+.networks {
+  margin: 0 18px;
+  list-style-type: none;
+  height: 71px;
+  width: 100%;
+}
+
+.networks li {
+  margin: 18px 25px 0px 0px;
+  display: block;
+  float: left;
+  height: 35px;
+  width: 35px;
+}
+
+.networks li:hover {
+  cursor: pointer;
+}
+
+.facebook {
+  background: url('../img/sprite.png');
+  background-position: 0 0;
+}
+
+.facebook:hover {
+  background: url('../img/sprite.png');
+  background-position: 0 36px;
+}
+
+.instagram {
+  background: url('../img/sprite.png');
+  background-position: -39px 0;
+}
+
+.instagram:hover {
+  background: url('../img/sprite.png');
+  background-position: -39px 36px;
+}
+
+.youtube {
+  background: url('../img/sprite.png');
+  background-position: -80px 0;
+}
+
+.youtube:hover {
+  background: url('../img/sprite.png');
+  background-position: -80px 36px;
+}
+
+.pinterest {
+  background: url('../img/sprite.png');
+  background-position: -121px 0;
+}
+
+.pinterest:hover {
+  background-position: -121px 36px;
+}
+
+.payment {
+  width: 100%;
+  height: 80px;
+  background: #f0f0f0;
+}
+
+.payment td {
+  width: 50%;
+  font-family: 'Raleway';
+  font-size: 12px;
+  padding: 16px 0 0 33px;
+}
+
+.systems {
+  padding: 0 0 0 0;
+}
+
+.logos {
+  height: 50px;
+}
+
+.systems {
+  background: url('../img/systems.png') no-repeat top 16px center;
+  height: 100%;
+  width: 100%;
+  padding: 0px 25px 0px 3px;
+}
+
+.links {
+  height: 80px;
+  width: 100%;
+  background: #f0f0f0;
+}
+
+.links_list {
+  list-style-type: none;
+  margin: 0 0 35px 32px;
+}
+
+.links_list li {
+  display: block;
+  float: left;
+  margin-right: 14px;
+  position: relative;
+}
+
+.links_list li:not(:first-child):after {
+  position: absolute;
+  content: '|';
+  font-family: 'Raleway';
+  font-size: 12px;
+  color: #333;
+  top: 5px;
+  left: -8px;
+}
+
+.links_list:first-child::after {
+  display: none;
+}
+
+.links_list a {
+  color: #333;
+  font-family: 'Raleway';
+  font-size: 12px;
+  letter-spacing: 0.2px;
+}
+
+.footer {
+  height: 98px;
+  width: 604px;
+  margin: 0 auto;
+  padding: 20px 0 16px;
+}
+
+.footer tr {
+  height: 19px;
+}
+
+.footer td {
+  width: 100%;
+  color: #333;
+  font-family: 'Gotham';
+  font-size: 12px;
+}
+
+.footer a {
+  color: #333;
+}
